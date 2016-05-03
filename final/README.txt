@@ -1,6 +1,10 @@
 Custom Url:
  http://patelas7.twilightparadox.com/
  
+ Prefilled information with login:
+	email - staff@email.com
+	password - mi362final
+ 
 Grading Checklist:
 
 	Required:
