@@ -1,0 +1,265 @@
+html, body, header, footer, nav, article, section,
+figure, figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body > div {
+    background-color: #E6BE8A;
+    max-width: 65em;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+nav {
+    position: relative;
+    background-color: #D2691E;
+    color: white;
+    height: 4em;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav ul {
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0;
+    padding-top: 0.5em;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+
+    display: block;
+    padding: 0.5em 0.5em;
+}
+
+nav ul li a:hover, header a:hover {
+    background-color: goldenrod;
+}
+
+nav ul li a:visited, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+header {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 1em 5em;
+    text-align: center;
+    position: relative;
+}
+
+header a{
+    padding: 0.5em 0.5em;
+    border: 2px solid white;
+}
+
+div.day{
+    width: 15em;
+    height: 20em;
+    float: left;
+    margin-left: 4em;
+    margin-bottom: 3em;
+    background-color: #F6F614;
+	text-align: center;
+}
+
+
+div.clear {
+    clear: both;
+}
+
+div.day a{
+	display: block;
+}
+
+
+div.day a  img{
+	float: left;
+	width: 2em;
+	height: 2em;
+	border: 1px solid gold;
+}
+
+
+div.day a img:hover {
+    border: 2px solid #FFD700;
+}
+
+div.day h2{
+	font-size: 1.9em;
+	color: #986D07;
+}
+
+div.day-tasks{
+	overflow-y: auto;
+	max-height:16.5em;
+}
+
+div.day-tasks ul{
+    list-style: none;
+    margin: 0;
+}
+
+div.day-tasks ul li {
+    background-color: #FAFAD2;
+    display: inline-block;
+	width: 13.99em;
+}
+
+div.day-tasks ul li a {
+	color: #5A0000;
+    display: block;
+	border:1px solid #800000;
+    padding: 0.5em 0.5em;
+}
+
+div.day-tasks ul li a:hover {
+    background-color: #FFD700;
+	border:2px solid #800000;
+}
+
+div.overlay {
+	position: fixed;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	visibility: hidden;
+	opacity: 1;
+}
+
+div.add-task{
+	position: relative;
+	margin: 100px auto;
+	background-color: red;
+	text-align: center;
+	width: 25em;
+	height: 32em;
+	border-radius: 2em;
+	border: 2px solid white;
+}
+
+div.add-task #title{
+	margin-top: 0.8em;
+}
+
+div.add-task a{
+	position: absolute;
+	left: 0.5em;
+	font-size: 2em;
+}
+
+div.add-task a:hover{
+	color: black;
+}
+
+div.add-task .notes{
+	width: 25em;
+	height: 20em;
+	margin: 2em;
+}
+
+div.add-task p.p-priority{
+	margin-left: 0.5em;
+	margin-bottom: 1.5em;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+div.add-task input[type=button]{
+	border-radius: 1em;
+	padding: 1em 1.5em 1em 1.5em;
+	margin-right: 3em;
+}
+
+form.login, form.createform{
+	width: 25em;
+	text-align: center;
+	margin-left: 10em;
+	font-size: 1.2em;
+	line-height: 2em;
+
+}
+
+p.message{
+    font-style: italic;
+    font-size: 1em;
+}
+
+form.createform{
+    text-align: left;
+
+}
+
+form.createform input{
+    width: 30em;
+    height: 2em;
+    border-radius: 2em;
+    padding-left: 0.5em;
+    outline: none;
+}
+
+form.createform input[type=submit]{
+    width: 10em;
+    height: 5em;
+    margin-left: 35em;
+    font-weight: bold;
+    background-color: #A61919;
+}
+
+div.instructions{
+    line-height: 2em;
+}
+
+div.instructions h2{
+    font-size: 2em;
+    text-indent: 1em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+}
+
+div.instructions p{
+    padding: 1em 4em 1em 3em;
+    text-indent: 1em;
+    font-size: 1.2em;
+}
+
+div.instructions h3{
+    text-indent: 3em;
+    font-size: 1.5em;
+}

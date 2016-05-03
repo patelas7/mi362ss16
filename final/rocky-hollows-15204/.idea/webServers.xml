@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="de5dda97-814f-4008-bdfb-68839cfc6477" name="MI362" url="http://webdev.cse.msu.edu/~patelas7/MI362/">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/patelas7/classweb/MI362/" accessType="SFTP" password="df9cdfe9df9fdf9edf9ddf9edf99df99dfcbdfda" username="patelas7">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
